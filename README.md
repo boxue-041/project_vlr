@@ -29,25 +29,14 @@
 
 ## 執行方式
 
-1. 安裝必要套件
+1. 安裝必要套件:
 pip install -r requirements.txt
 
-2. 執行爬蟲腳本（產生資料庫與照片）
+2. 執行爬蟲腳本（產生資料庫與照片）:
 python val_crawler_sqlite.py
 
-3. 執行 GUI 程式
+3. 執行 GUI 程式:
 python val_gui_sqlite.py
-
-
-## 專案結構
-
-project_vlr/
-├── val_crawler_sqlite.py           # 爬蟲程式
-├── val_gui_sqlite.py               # GUI 程式
-├── vlrgg.db                        # SQLite 資料庫（爬蟲建立）
-├── pics/                           # 選手照片資料夾（爬蟲建立）
-├── requirements.txt                # 所需套件清單
-└── README.md                       # 專案說明文件
 
 
 ## 資料來源

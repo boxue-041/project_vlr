@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+numpy
+sqlalchemy
+pandastable
+Pillow
+matplotlib
+scikit-learn
